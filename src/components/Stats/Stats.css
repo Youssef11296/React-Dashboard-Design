@@ -1,0 +1,94 @@
+/* Stats Style */
+
+.stats {
+    flex: 0.7;
+}
+
+
+/* States Boxes Style */
+
+.stats__boxes,
+.box__categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats__boxes {
+    justify-content: space-between;
+}
+
+
+/* Filter Box Style */
+
+.box {
+    padding: 1.2rem;
+    border-radius: 8px;
+    color: #fff;
+    background: var(--bg-sec);
+    transition: all 0.3s ease-out;
+}
+
+.box h5 {
+    margin-bottom: 10px;
+}
+
+.box h5 {
+    font-weight: 700;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+
+/* Filter Box Style */
+
+.filterBox {
+    min-width: 188px;
+    min-height: 117px;
+}
+
+.box__category {
+    width: fit-content;
+    border-radius: 6px;
+    padding: 10px;
+    background: var(--bg-third);
+}
+
+.box__category:nth-child(2) {
+    background-color: var(--blue);
+}
+
+
+/* Total Box Style */
+
+.totalBox {
+    width: 287px;
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalBox__numbers h4 {
+    font-size: 2rem;
+}
+
+.totalBox__numbers h4 span {
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.totalBox__right {
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.totalBox__cart {
+    font-size: 2rem !important;
+}

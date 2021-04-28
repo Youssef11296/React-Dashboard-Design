@@ -1,0 +1,61 @@
+/* Global Variables */
+
+:root {
+    --bg: #202342;
+    --orange: #fe7448;
+    --gray: #6f7291;
+    --bg-sec: #2d325a;
+    --blue: #01a9f4;
+    --bg-third: #2b2f55;
+    --green: #63f4f7;
+    --bg-fourth: #323662;
+    --red: #ec4165;
+    --true: #1ec1c3;
+}
+
+
+/* Global Style */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* Body Style */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* App Style */
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+}
+
+
+/* App Showcase Style */
+
+.app__showcase,
+.app__showcase--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__showcase--left {
+    flex-direction: column;
+}

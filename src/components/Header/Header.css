@@ -1,0 +1,70 @@
+/* Header Notifications Style */
+
+.header__notification {
+    position: relative;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    margin-right: 0.9rem;
+    background: var(--bg-sec);
+}
+
+.header__notification::after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--orange);
+}
+
+.header__notification .MuiSvgIcon-root {
+    color: var(--gray) !important;
+    margin: -8px !important;
+}
+
+
+/* Global Style */
+
+.header,
+.header__user,
+.header__user--info,
+.header__userText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+/* Header User Style */
+
+.header {
+    margin-bottom: 0.4rem;
+    justify-content: flex-end;
+}
+
+.header__userImg {
+    margin-right: 0.4rem;
+}
+
+.header__userText {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__userName {
+    font-weight: 600;
+}
+
+.header__userMail {
+    font-size: small;
+    color: var(--gray);
+}
+
+.header__more.MuiSvgIcon-root {
+    color: #fff !important;
+    text-align: center !important;
+    font-weight: 400 !important;
+}

@@ -1,0 +1,142 @@
+/* Sidebar Style */
+
+.sidebar {
+    flex: 0.3;
+    margin-left: 3rem;
+    padding-bottom: 2.2rem;
+}
+
+
+/* Sidebar Boxes Style */
+
+.sidebar__box {
+    color: #fff;
+    padding: 1rem;
+    margin: 1.2rem 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-sec);
+}
+
+.sidebar__box--textTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.topRight {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: rgba(99, 244, 247, 0.2);
+}
+
+.sidebar__box--textTop .MuiSvgIcon-root {
+    color: var(--green);
+}
+
+.topLeft p:nth-child(1) {
+    color: var(--gray);
+}
+
+.topLeft p:nth-child(2) {
+    font-weight: 600;
+}
+
+.sidebar__box--textMid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar__box--textMid-left {
+    flex: 0.7;
+    padding: 0.8rem;
+    margin-right: 1.2rem;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+.sidebar__box--textMid-right,
+.box__button {
+    flex: 0.3;
+    border: none;
+    outline: none;
+    min-width: 160px !important;
+    text-transform: capitalize !important;
+    color: var(--red) !important;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--bg-fourth) !important;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar__box--textBottom {
+    font-size: 0.8rem;
+}
+
+.sidebar__box--textBottom span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/* Discord Box Style */
+
+.sidebar__discordBox,
+.sidebar__transferBox,
+.sidebar__downloadBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/* Transfer Box Style */
+
+.sidebar__transferBox--right {
+    color: var(--true) !important;
+}
+
+.sidebar__transferBox--user {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.sidebar__transferBox--user p:nth-child(1) {
+    color: var(--gray);
+}
+
+
+/* Download Box Style */
+
+.sidebar__downloadBox {
+    max-height: 172px !important;
+}
+
+.sidebar__downloadBox--title {
+    padding: 2rem 1rem;
+    margin-right: 10px !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(111, 114, 145, 0.2);
+}
+
+.sidebar__downloadBox--btn {
+    min-width: 100% !important;
+    color: #fff !important;
+    margin: 0.2rem 0 !important;
+    background-color: var(--true) !important;
+}
