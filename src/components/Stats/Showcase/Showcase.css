@@ -25,7 +25,6 @@
 }
 
 .showcase__headerCol {
-    font-size: 0.9rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -60,4 +59,21 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     text-transform: uppercase;
+}
+
+
+/* Showcase - Respnsive Style */
+
+@media screen and (max-width: 900px) {
+    .showcase__headerCol {
+        font-size: 0.6rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .showcase__lines {
+        margin-bottom: 1rem;
+    }
+    .showcase__line {
+        font-size: 0.6rem;
+    }
 }

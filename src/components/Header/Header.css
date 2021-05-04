@@ -68,3 +68,12 @@
     text-align: center !important;
     font-weight: 400 !important;
 }
+
+
+/* Header -Responsive Style */
+
+@media screen and (max-width: 1000px) {
+    .header {
+        margin-bottom: 1.6rem;
+    }
+}

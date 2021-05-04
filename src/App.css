@@ -59,3 +59,21 @@ body {
 .app__showcase--left {
     flex-direction: column;
 }
+
+
+/* Showcase - Reasponsive Style */
+
+@media screen and (max-width: 1100px) {
+    body,
+    .app {
+        min-height: 100vh;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    .app {
+        padding: 1rem;
+    }
+    .app__showcase {
+        flex-direction: column-reverse;
+    }
+}

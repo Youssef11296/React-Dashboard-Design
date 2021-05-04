@@ -4,9 +4,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # `Overview`
 
-It's a very simple design that created by React, CSS, Material UI
+- This App Is Build And Designed By Using REACT, The Most Popular JS Library In The Industry.
 
-# `Softwares & Techs Dependencies`
+- It's a very simple design that created by React, CSS, Material UI.
+
+- It's Created & Built Out Through Two Steps.
+
+## `What's New In The Second Step?`
+
+- Thanks To The Powerful Of CSS Flex Boxes, The App Became Much Better By Making It Responsive For All Screens.
+
+- By Using Firebase Hosting, The App Is Online Hosted Right Now.
+
+# `Top Softwares & Techs Dependencies`
 
 - ReactJS
 
@@ -14,7 +24,17 @@ It's a very simple design that created by React, CSS, Material UI
 
 - CSS
 
-- CSS Animations
+- CSS Animations Hover Effects
+
+- CSS Flex Boxes
+
+- CSS Media Quiries For Responsive Design
+
+- Firebase For Online Hosting
+
+# `Trying & Checking Out`
+
+- Now, You Can Check It Right Now From Here: https://react-dashboard-design.web.app/
 
 ## Available Scripts
 
